@@ -19,3 +19,6 @@ class DB:
 
     def delete(self, query):
         self.db['tweetCollection'].remove(query)
+
+    def insert_all(self, data):
+        self.db['tweetCollection'].insert_many(data)
