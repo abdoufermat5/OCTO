@@ -47,10 +47,10 @@ def remove_stop_words(text):
 
 
 def lemmatize_text(text):
-    # Tokeniser le texte en mots
+    # Tokenizer le text en mots
     words = word_tokenize(text)
 
-    # Initialiser le lemmatiseur
+    # Initializer le legitimatise
     lemmatizer = WordNetLemmatizer()
 
     # Lemmatiser chaque mot
